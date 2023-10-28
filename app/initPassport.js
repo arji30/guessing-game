@@ -6,8 +6,8 @@ const passportInstance = new passport.Passport({
     environment: config.Environment.SANDBOX,
   }),
   clientId: "kkQK32kD8nBKbsysLlks9kLFqLXbkGwh",
-  redirectUri: "https://arji30-number-guess.web.app",
-  logoutRedirectUri: "https://arji30-number-guess.web.app",
+  redirectUri: "https://arji30-number-guess.vercel.app",
+  logoutRedirectUri: "https://arji30-number-guess.vercel.app",
   audience: "platform_api",
   scope: "openid offline_access email transact",
 });
